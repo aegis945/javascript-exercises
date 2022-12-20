@@ -27,11 +27,12 @@ const multiply = function (array) {
 };
 
 const power = function (a, b) {
-  var powerOfNum = 1;
+  /*var powerOfNum = 1;
   for (let i = 1; i <= b; i++) {
     powerOfNum *= a;
   }
-  return powerOfNum;
+  return powerOfNum;*/
+  return Math.pow(a, b);
 };
 
 const factorial = function (a) {
